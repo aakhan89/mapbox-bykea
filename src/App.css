@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* min-height: 40px; */
+  position: absolute;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.header {
+  background-color: #ffffff;
+  z-index: 1;
+  width: 100%;
+}
+.Tab {
+  font-weight: 700;
+  border: #000000 thick 10px !important;
+  border-right: #000000 thick 1px;
+  cursor: pointer;
+  padding: 15px;
+}
+.activeTab {
+  background-color: #00bf2c !important;
+  color: white;
+}
+.mapContainer {
+  height: 800px;
+}
+.right_content {
+  position: relative;
+}
+.left_content {
+  background-color: #ffffff;
+  z-index: 1;
+  position: relative;
+}
+.content_Tab {
+  font-weight: 700;
+  /* border: #000000 thick 10px !important; */
+  box-shadow: 2px 2px 2px grey;
+  cursor: pointer;
+  padding: 12px;
+  background-color: #f2f2f2;
+  margin: 1px;
+}
+.tabShadow {
+  box-shadow: 1px 1px 1px grey;
+}
+.sidebarStyle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
